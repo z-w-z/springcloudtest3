@@ -1,9 +1,9 @@
-package com.springcloudribbon.springcloudribbon.controller;
+package com.springcloudfeign.springcloudfeign.controller;
 
+import com.springcloudfeign.springcloudfeign.api.UserApiFeign;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.client.RestTemplate;
 
 /**
  * @ClassName:
@@ -15,11 +15,12 @@ import org.springframework.web.client.RestTemplate;
 @RequestMapping("/user")
 public class Usercontroller {
     @Autowired
-    RestTemplate template;
-
-    @RequestMapping("/getlist")
-    public String gettemplate(){
-        String result = template.getForObject("http://common-user/user/list",String.class);
+    UserApiFeign userApiFeign;
+    @RequestMapping("/list")
+    public String getUser(){
+        String result = userApiFeign.getListUser();
         return result;
+
     }
+
 }

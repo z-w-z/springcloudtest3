@@ -10,6 +10,7 @@
         <module name="springcloud-common" />
         <module name="springcloud-ereuka-client" />
         <module name="springcloud-eureka" />
+        <module name="springcloud-feign" />
         <module name="springcloud-ribbon" />
         <module name="springcloudtest3" />
       </profile>
@@ -21,6 +22,7 @@
       <module name="springcloud-common" options="-parameters" />
       <module name="springcloud-ereuka-client" options="-parameters" />
       <module name="springcloud-eureka" options="-parameters" />
+      <module name="springcloud-feign" options="-parameters" />
       <module name="springcloud-ribbon" options="-parameters" />
     </option>
   </component>

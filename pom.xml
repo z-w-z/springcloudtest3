@@ -20,6 +20,8 @@
   </properties>
   <modules>
     <module>springcloud-eureka</module>
+    <module>springcloud-common</module>
+    <module>springcloud-ereuka-client</module>
   </modules>
 
   <dependencies>

@@ -17,6 +17,7 @@
         <option value="$PROJECT_DIR$/springcloud-common/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud-common/common-user/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud-common/springcloud-ribbon/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-common/springcloud-feign/pom.xml" />
       </list>
     </option>
   </component>
